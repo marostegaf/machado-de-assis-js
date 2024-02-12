@@ -1,4 +1,4 @@
-# Audiobook
+# Audiobook 🔊📙
 ### Agora você pode mergulhar na obra-prima de Machado de Assis de uma maneira completamente nova.
 ![image](https://github.com/marostegaf/machado-de-assis-js/assets/103620713/ed96f991-ce76-4195-be75-a714f3f7c4ae)
 ### Prático, em qualquer lugar!
@@ -13,4 +13,4 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 
 ## 💻 Projeto
-Disponível em: 🔗[Dom Casmurro, Machado de Assis]()
+Disponível em: 🔗[Dom Casmurro, Machado de Assis](https://machado-de-assis.vercel.app/)
