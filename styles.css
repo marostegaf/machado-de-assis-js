@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #171717;
+}
+
+.main-content {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 42px
+}
+
+.main-content img {
+    width: 15%;
+
+}
+
+.main-content h1 {
+    color: #ffffff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px  
+}
+
+.buttons button {
+    display: flex;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.buttons button:hover,
+.informacao:hover {
+    transform: scale(1.15);
+}
+
+.seek-bar {
+    appearance: none;
+    width: 14%;
+    height: 8px;
+    background: #171717;
+    border-radius: 10px;
+    outline: none;
+    align-items: center;
+    border: 1px solid #ffffff;
+}
+
+.seek-bar::-webkit-slider-thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 10px;
+    background: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .main-content {
+
+        gap: 35px
+    }
+
+    .main-content img {
+        width: 55%;
+    }
+
+    .main-content h1 {
+        font-size: 37px;
+        font-weight: 500;
+    }
+
+    .buttons button {
+        font-size: 65px;
+    }
+
+    .play-pause:hover {
+        font-size: 70px;
+        padding: 0 3px;
+    }
+
+    .seek-bar {
+        width: 45%;
+        height: 8px;
+        border: 2px solid #ffffff;
+
+    }
+    .seek-bar::-webkit-slider-thumb {
+        width: 25px;
+        height: 12px;
+
+    }
+}
+
+@media (min-height: 950px) {
+    .main-content {
+        gap: 55px
+    }
+
+    .main-content img {
+        width: 20%;
+    }
+
+    .main-content h1 {
+        font-size: 45px;
+        font-weight: 500;
+    }
+
+    .buttons button {
+        font-size: 85px;
+    }
+
+    .play-pause:hover {
+        font-size: 100px;
+        padding: 0 3px;
+    }
+
+    .seek-bar {
+        width: 14%;
+        height: 14px;
+        border: 2px solid #ffffff;
+
+    }
+    .seek-bar::-webkit-slider-thumb {
+        width: 25px;
+        height: 13px;
+
+    }
+}
